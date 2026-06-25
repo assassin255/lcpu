@@ -16,7 +16,7 @@ concurrency:
 jobs:
   build_and_deploy_next_ssg:
     name: Build and Deploy Next based static site to Wasmer Edge
-    runs-on: ubuntu-latest
+    runs-on: tenki-standard-large-plus-16c-32g
     steps:
       - name: Checkout
         uses: actions/checkout@v2
